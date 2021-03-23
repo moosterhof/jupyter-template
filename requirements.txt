@@ -25,14 +25,14 @@ nbclient==0.5.3
 nbconvert==6.0.7
 nbformat==5.1.2
 nest-asyncio==1.5.1
-notebook==6.2.0
+notebook==6.3.0
 packaging==20.9
 pandocfilters==1.4.3
 parso==0.8.1
 pexpect==4.8.0
 pickleshare==0.7.5
 pip==21.0.1
-prompt-toolkit==3.0.17
+prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 pycparser==2.20
 Pygments==2.8.1
@@ -42,7 +42,7 @@ python-dateutil==2.8.1
 pyzmq==22.0.3
 requests==2.25.1
 Send2Trash==1.5.0
-setuptools==54.1.2
+setuptools==54.2.0
 six==1.15.0
 terminado==0.9.3
 testpath==0.4.4
