@@ -1,6 +1,6 @@
 ---
 name: Automatic Python Dependency Upgrades
-on:
+on:  # yamllint disable-line rule:truthy
   workflow_dispatch:
     inputs:
       logLevel:
@@ -45,7 +45,7 @@ jobs:
           signoff: false
           branch: automatic-dependency-upgrades
           delete-branch: true
-          title: '[Example] Update report'
+          title: 'Automatic update of Python dependencies'
           assignees: moosterhof
           reviewers: moosterhof
           team-reviewers: |
