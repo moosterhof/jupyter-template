@@ -11,7 +11,7 @@ bleach==3.3.0
 certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
-decorator==5.0.6
+decorator==5.0.7
 defusedxml==0.7.1
 entrypoints==0.3
 ipykernel==5.5.3
@@ -44,7 +44,7 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 pyzmq==22.0.3
 requests==2.25.1
-setuptools==54.2.0
+setuptools==56.0.0
 six==1.15.0
 terminado==0.9.4
 testpath==0.4.4
