@@ -31,6 +31,12 @@ jobs:
       - name: pur upgrade
         run: |
           pur -r requirements.txt
+      - name: git diff
+        run: |
+          git diff
+      - name: git commit -m "automatic dependency upgrade"
+        run: |
+          git commit
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
