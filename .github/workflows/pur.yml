@@ -35,6 +35,8 @@ jobs:
         run: |
           git diff
       - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
@@ -43,7 +45,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: automatic-dependency-updates
+          branch: automatic-dependency-upgrades
           delete-branch: true
           title: '[Example] Update report'
           assignees: moosterhof
