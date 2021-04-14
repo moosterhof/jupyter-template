@@ -19,3 +19,6 @@ upgrade:
 clean:
 	echo
 
+.PHONY: lint
+lint:
+	yamllint .github

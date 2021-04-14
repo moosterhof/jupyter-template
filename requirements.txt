@@ -1,3 +1,4 @@
+
 Jinja2==2.11.3
 MarkupSafe==1.1.1
 Pygments==2.8.1
@@ -55,3 +56,4 @@ wcwidth==0.2.5
 webencodings==0.5.1
 wheel==0.36.2
 widgetsnbextension==3.5.1
+yamllint==1.26.1
