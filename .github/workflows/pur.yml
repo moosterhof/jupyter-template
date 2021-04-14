@@ -35,12 +35,10 @@ jobs:
         run: |
           git diff
       - name: Create Pull Request
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Automatic update of dependencies
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
