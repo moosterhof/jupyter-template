@@ -1,7 +1,5 @@
 ---
-name: automatic dependency upgrades
-
-
+name: Automatic Python Dependency Upgrades
 on:
   workflow_dispatch:
     inputs:
@@ -10,8 +8,7 @@ on:
         required: true
         default: 'warning'
       tags:
-        description: 'Upgrade Python dependencies'
-on:
+        description: 'Automatic Python Dependency Upgrades'
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron: '14 3 * * *'
