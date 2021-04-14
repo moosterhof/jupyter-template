@@ -1,6 +1,4 @@
 ---
-comments go here
----
 name: automatic dependency upgrades
 
 on:
