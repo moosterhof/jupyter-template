@@ -10,7 +10,7 @@ or:
 
 Activate direnv and create your Python virtual environment
 
-```direnv allow .`
+```direnv allow .```
 
 Install the dependencies:
 
