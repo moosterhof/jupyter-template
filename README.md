@@ -1,3 +1,13 @@
 # Jupyter Notebook Template Project
 
-Run `direnv allow .` to activate direnv and create your Python virtual environment
+Activate direnv and create your Python virtual environment
+
+```direnv allow .`
+
+Install the dependencies:
+
+```make install```
+
+Enable the `bash` kernel: 
+
+```python -m bash_kernel.install```
