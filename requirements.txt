@@ -12,7 +12,7 @@ bleach==3.3.0
 certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
-click==8.0.1
+click==7.1.2
 decorator==5.0.9
 defusedxml==0.7.1
 entrypoints==0.3
@@ -45,7 +45,6 @@ pipdeptree==2.0.0
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
 ptyprocess==0.7.0
-pur==5.4.1
 pycparser==2.20
 pyparsing==2.4.7
 pyrsistent==0.17.3
@@ -53,6 +52,7 @@ python-dateutil==2.8.1
 pyzmq==22.1.0
 requests==2.25.1
 setuptools==57.0.0
+pur==5.4.1
 six==1.16.0
 terminado==0.10.0
 testpath==0.5.0
