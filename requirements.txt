@@ -16,7 +16,7 @@ click==7.1.2
 decorator==5.0.9
 defusedxml==0.7.1
 entrypoints==0.3
-idna==3.1
+idna==2.10
 ipykernel==5.5.5
 ipyparallel==6.3.0
 ipython-genutils==0.2.0
