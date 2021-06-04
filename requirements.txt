@@ -9,7 +9,7 @@ async-generator==1.10
 attrs==21.2.0
 backcall==0.2.0
 bleach==3.3.0
-certifi==2020.12.5
+certifi==2021.5.30
 cffi==1.14.5
 chardet==4.0.0
 click==7.1.2
@@ -20,7 +20,7 @@ idna==2.10
 ipykernel==5.5.5
 ipyparallel==6.3.0
 ipython-genutils==0.2.0
-ipython==7.23.1
+ipython==7.24.1
 ipywidgets==7.6.3
 jedi==0.18.0
 jsonschema==3.2.0
@@ -42,7 +42,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 pip==21.1.2
 pipdeptree==2.0.0
-prometheus-client==0.10.1
+prometheus-client==0.11.0
 prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 pycparser==2.20
