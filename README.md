@@ -19,3 +19,10 @@ Install the dependencies:
 Enable the `bash` kernel: 
 
 ```python -m bash_kernel.install```
+
+Run Jupyter, any way you like or start it with:
+
+```make```
+
+
+
