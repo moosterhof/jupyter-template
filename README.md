@@ -12,12 +12,10 @@ Activate direnv and create your Python virtual environment
 
 ```direnv allow .```
 
-Install the dependencies:
+Install the dependencies and enable the bash kernel:
 
-```make install```
-
-Enable the `bash` kernel: 
-
+```pip install --upgrade pip setuptools wheel```
+```pip install -r ./requirements.txt```
 ```python -m bash_kernel.install```
 
 Run Jupyter, any way you like or start it with:
