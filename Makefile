@@ -1,4 +1,3 @@
-
 .PHONY: all
 all: start
 
@@ -19,7 +18,7 @@ upgrade:
 
 .PHONY: clean
 clean:
-	echo
+	find . -name '*.ipynb' | xargs -P 6 -n 1 jupyter nbconvert --clear-output --inplace
 
 .PHONY: lint
 lint:
