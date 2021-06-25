@@ -5,9 +5,13 @@ all: start
 start:
 	jupyter notebook  --browser='open %s'
 
+.PHONY:
+direnv:
+	[ ! -z "${DIRENV_DIR}" ] || echo Please activate direnv by typing "direnv allow ." && exit 1
+
 .PHONY: install
 install:
-	direnv allow .
+	pip install --upgrade pip setuptools wheel
 	pip install -r ./requirements.txt
 	python -m bash_kernel.install
 
