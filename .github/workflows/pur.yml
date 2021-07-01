@@ -31,6 +31,12 @@ jobs:
       - name: pur upgrade
         run: |
           pur -r requirements.txt
+      - name: Upgrade Python libraries
+        run: |
+          pip install --upgrade -r requirements.txt
+      - name: Check Python libraries
+        run: |
+          pip check
       - name: git diff
         run: |
           git diff
