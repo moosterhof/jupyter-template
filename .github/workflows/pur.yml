@@ -11,7 +11,7 @@ on:  # yamllint disable-line rule:truthy
         description: 'Automatic Python Dependency Upgrades'
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '14 3 * * *'
+    - cron: '14 3 */7 * *'
 jobs:
   Pur-Upgrade:
     runs-on: ubuntu-latest
