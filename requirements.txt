@@ -1,4 +1,4 @@
-Jinja2==3.0.1
+Jinja2==3.0.2
 MarkupSafe==2.0.1
 PyYAML==5.4.1
 Pygments==2.10.0
@@ -10,7 +10,7 @@ attrs==21.2.0
 backcall==0.2.0
 bash-kernel==0.7.2
 bleach==4.1.0
-certifi==2021.5.30
+certifi==2021.10.8
 cffi==1.14.6
 chardet==4.0.0
 click==7.1.2
@@ -24,8 +24,8 @@ ipython-genutils==0.2.0
 ipython==7.28.0
 ipywidgets==7.6.5
 jedi==0.18.0
-jsonschema==4.0.1
-jupyter-client==7.0.5
+jsonschema==4.1.0
+jupyter-client==7.0.6
 jupyter-core==4.8.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.2
