@@ -21,11 +21,11 @@ idna==3.3
 ipykernel==6.5.1
 ipyparallel==8.0.0
 ipython-genutils==0.2.0
-ipython==7.29.0
+ipython==7.30.0
 ipywidgets==7.6.5
 jedi==0.18.1
 jsonschema==4.2.1
-jupyter-client==7.0.6
+jupyter-client==7.1.0
 jupyter-core==4.9.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.2
@@ -45,7 +45,7 @@ pip==21.3.1
 pipdeptree==2.2.0
 pre-commit==2.15.0
 prometheus-client==0.12.0
-prompt-toolkit==3.0.22
+prompt-toolkit==3.0.23
 ptyprocess==0.7.0
 pur==5.4.2
 pycparser==2.21
@@ -54,7 +54,7 @@ pyrsistent==0.18.0
 python-dateutil==2.8.2
 pyzmq==22.3.0
 requests==2.26.0
-setuptools==59.2.0
+setuptools==59.3.0
 six==1.16.0
 terminado==0.12.1
 testpath==0.5.0
