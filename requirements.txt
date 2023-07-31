@@ -42,7 +42,7 @@ pickleshare==0.7.5
 pip==23.2.1
 pipdeptree==2.11.0
 pre-commit==3.3.3
-prometheus-client==0.17.0
+prometheus-client==0.17.1
 prompt-toolkit==3.0.39
 ptyprocess==0.7.0
 pur==7.1.0
