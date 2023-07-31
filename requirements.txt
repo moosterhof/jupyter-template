@@ -39,7 +39,7 @@ parso==0.8.3
 pathspec==0.11.1
 pexpect==4.8.0
 pickleshare==0.7.5
-pip==23.2
+pip==23.2.1
 pipdeptree==2.11.0
 pre-commit==3.3.3
 prometheus-client==0.17.0
