@@ -27,7 +27,7 @@ jsonschema==4.19.0
 jupyter-client==8.3.1
 jupyter-core==5.3.1
 jupyterlab-pygments==0.2.2
-jupyterlab-widgets==3.0.8
+jupyterlab-widgets==3.0.9
 nbclient==0.8.0
 nbconvert==7.8.0
 nbformat==5.9.2
