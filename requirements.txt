@@ -63,5 +63,5 @@ urllib3==2.0.6
 wcwidth==0.2.6
 webencodings==0.5.1
 wheel==0.41.2
-widgetsnbextension==4.0.8
+widgetsnbextension==4.0.9
 yamllint==1.32.0
