@@ -41,7 +41,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 pip==23.2.1
 pipdeptree==2.13.0
-pre-commit==3.4.0
+pre-commit==3.5.0
 prometheus-client==0.17.1
 prompt-toolkit==3.0.39
 ptyprocess==0.7.0
