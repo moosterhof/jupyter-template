@@ -22,7 +22,7 @@ ipyparallel==8.6.1
 ipython-genutils==0.2.0
 ipython==8.14.0
 ipywidgets==8.1.1
-jedi==0.19.0
+jedi==0.19.1
 jsonschema==4.19.0
 jupyter-client==8.6.0
 jupyter-core==5.3.1
