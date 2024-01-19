@@ -32,7 +32,7 @@ nbclient==0.8.0
 nbconvert==7.8.0
 nbformat==5.9.2
 nest-asyncio==1.5.8
-notebook==7.0.2
+notebook==7.0.7
 packaging==23.2
 pandocfilters==1.5.0
 parso==0.8.3
