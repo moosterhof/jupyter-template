@@ -52,8 +52,8 @@ pyrsistent==0.19.3
 python-dateutil==2.8.2
 pyzmq==25.1.1
 requests==2.32.3
-setuptools==68.2.2
-setuptools==68.2.2
+setuptools==78.1.1
+setuptools==78.1.1
 six==1.16.0
 terminado==0.17.1
 testpath==0.6.0
